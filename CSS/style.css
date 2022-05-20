@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.card {
+    background-color: #d1d0a5;
+    margin-top: 5px;
+}
+
+.HAMBURGUESAS, .PASTAS {
+    color:  rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    font-style: italic;
+}
+.PASTAS:hover {
+    animation: pulsate 3s 
+    ease-in-out;
+}
+
+.HAMBURGUESAS:hover {
+    animation: pulsate 3s 
+    ease-in-out;
+}
+
+@keyframes pulsate {
+    0%{
+        box-shadow: 
+        0 0 25px #9971b4,
+        0 0 50px #817b85;
+    }
+}
+  
+.HAMBURGUESAS {
+    border-radius: 12px;
+    background-color: #a9e0c9;
+    margin: 10px;
+}
+
+.HAMBURGUESAS img {
+    border-radius: 12px;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+} 
+
+.PASTAS {
+    border-radius: 12px;
+    background-color: #a9e0c9;
+    margin: 10px;
+}
+  
+.PASTAS img {
+    border-radius: 12px;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+}
+ /* FOOTER */
+ 
+ .footer-copyright{
+     color: white;
+ }
+
+ /*CONTENIDO PAGINA*/
+
+ .container {
+     margin-top: 20px;
+     border: #66a88d solid;
+    }
+
+.parrafo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+ /*FIN CONTENIDO PAGINA*/
+
+ .btn {
+     color: white;
+ }
