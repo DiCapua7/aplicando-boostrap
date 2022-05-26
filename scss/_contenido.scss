@@ -1,0 +1,64 @@
+/*VARIABLES*/
+$colorPrimario: #66a88d;
+$colorCard: #d1d0a5;
+$colorHamburPastas: #a9e0c9;
+
+/*ESTILOS DE CONTENIDO*/
+.container {
+    margin-top: 20px;
+    border: $colorPrimario solid;
+}
+
+.parrafo {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: white;
+   margin-top: 10px;
+   text-align: center;
+}
+body {
+    background-color: black;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.card {
+    background-color: $colorCard;
+    margin-top: 5px;
+}
+
+.HAMBURGUESAS, .PASTAS {
+    color:  rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    font-style: italic;
+}
+.HAMBURGUESAS {
+    border-radius: 12px;
+    background-color: $colorHamburPastas;
+    margin: 10px;
+}
+
+.HAMBURGUESAS img {
+    border-radius: 12px;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+} 
+
+.PASTAS {
+    border-radius: 12px;
+    background-color: $colorHamburPastas;
+    margin: 10px;
+}
+  
+.PASTAS img {
+    border-radius: 12px;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,19 @@
+/*ESTILOS DE MENU*/
+
+.PASTAS:hover {
+    animation: pulsate 3s 
+    ease-in-out;
+}
+
+.HAMBURGUESAS:hover {
+    animation: pulsate 3s 
+    ease-in-out;
+}
+
+@keyframes pulsate {
+    0%{
+        box-shadow: 
+        0 0 25px #9971b4,
+        0 0 50px #817b85;
+    }
+}
