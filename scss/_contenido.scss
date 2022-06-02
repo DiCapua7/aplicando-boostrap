@@ -2,6 +2,9 @@
 $colorPrimario: #66a88d;
 $colorCard: #d1d0a5;
 $colorHamburPastas: #a9e0c9;
+$ancho: 150%;
+$largo: 100%;
+$tituloPagina: white;
 
 /*ESTILOS DE CONTENIDO*/
 .container {
@@ -18,7 +21,7 @@ $colorHamburPastas: #a9e0c9;
 body {
     background-color: black;
 }
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 .logo {
     width: 100px;
     border-radius: 12px;
@@ -47,7 +50,7 @@ body {
     border-radius: 12px;
     margin: 5px;
     width: 150px;
-    height: 150px;
+    height: 100px;
 } 
 
 .PASTAS {
@@ -60,5 +63,33 @@ body {
     border-radius: 12px;
     margin: 5px;
     width: 150px;
-    height: 150px;
+    height: 100px;
+}
+
+ /*MAP*/
+$ancho: (
+    ancho: 150%,
+    largo: 80%,
+);
+
+@each $medida, $porcentaje in $ancho {
+    .container--#{$medida} {
+        width: $porcentaje;
+        background-color: black;
+    }
+    
+}
+
+/*MAP GET*/
+$tituloPagina: (
+    centro: center,
+    borde: 30px solid,
+    colorPrincipal: white,
+    margen: 20px,
+);
+.titulo {
+    text-align: map-get($tituloPagina, centro);
+    border: map-get($tituloPagina, borde);
+    color: map-get($tituloPagina, colorPrincipal);
+    margin-top: map-get($tituloPagina, margen);
 }

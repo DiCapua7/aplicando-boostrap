@@ -44,7 +44,7 @@ body {
   border-radius: 12px;
   margin: 5px;
   width: 150px;
-  height: 150px; }
+  height: 100px; }
 
 .PASTAS {
   border-radius: 12px;
@@ -55,7 +55,23 @@ body {
   border-radius: 12px;
   margin: 5px;
   width: 150px;
-  height: 150px; }
+  height: 100px; }
+
+/*MAP*/
+.container--ancho {
+  width: 150%;
+  background-color: black; }
+
+.container--largo {
+  width: 80%;
+  background-color: black; }
+
+/*MAP GET*/
+.titulo {
+  text-align: center;
+  border: 30px solid;
+  color: white;
+  margin-top: 20px; }
 
 /*ESTILOS DE FOOTER*/
 .footer-copyright {
